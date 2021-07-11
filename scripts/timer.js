@@ -1,0 +1,1 @@
+const pauseBtn = document.getElementById('pause');
