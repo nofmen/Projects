@@ -31,7 +31,7 @@ function startTimer() {
     tens = 00;
     appendTens.innerHTML = '00';
     seconds++;
-    if (seconds < 9){
+    if (seconds <= 9){
       appendSeconds.innerHTML = '0' + seconds;
     } else if (seconds > 9) {
       appendSeconds.innerHTML = seconds;

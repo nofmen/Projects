@@ -43,9 +43,21 @@ button {
   border:rgba(255, 0, 0);
 }
 
+#pause:hover,
+#pause:active {
+  background:rgb(255, 70, 70);
+  border:rgba(255, 70, 70);
+}
+
 #reset {
   background:rgb(255, 0, 0);
   border:rgba(255, 0, 0);
+}
+
+#reset:hover,
+#reset:active {
+  background:rgb(255, 70, 70);
+  border:rgba(255, 70, 70);
 }
 
 button:hover,
