@@ -38,6 +38,16 @@ button {
 	margin: 0.5rem;
 }
 
+#pause {
+  background:rgb(255, 0, 0);
+  border:rgba(255, 0, 0);
+}
+
+#reset {
+  background:rgb(255, 0, 0);
+  border:rgba(255, 0, 0);
+}
+
 button:hover,
 button:active {
 	background: #5898ff;
