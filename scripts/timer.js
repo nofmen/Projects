@@ -2,7 +2,7 @@ const oneMinBtn = document.getElementById('1-min')
 const fiveMinBtn = document.getElementById('5-min')
 const oneSecBtn = document.getElementById('1-sec')
 const fiveSecBtn = document.getElementById('5-sec')
-const pauseBtn = document.getElementById('pause');
+const startPauseBtn = document.getElementById('start-pause');
 const resetBtn = document.getElementById('reset');
 const appendMinutes = document.getElementById('minutes');
 const appendSeconds = document.getElementById('seconds');
@@ -46,6 +46,10 @@ function addFiveSec() {
     }
 }
 
+//function startPauseHandler() {
+//
+//}
+
 function resetTimer() {
     minRemaining = 00;
     secRemaining = 00;
@@ -59,3 +63,4 @@ fiveMinBtn.addEventListener('click', addFiveMin);
 oneSecBtn.addEventListener('click', addOneSec);
 fiveSecBtn.addEventListener('click', addFiveSec);
 resetBtn.addEventListener('click', resetTimer);
+//startPauseBtn.addEventListener('click', startPauseHandler);

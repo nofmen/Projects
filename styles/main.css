@@ -28,6 +28,7 @@ body {
 }
 
 button {
+  float: float;
 	font: inherit;
 	background: #3884ff;
 	border: 1px solid #3884ff;
@@ -36,6 +37,10 @@ button {
 	border-radius: 6px;
 	cursor: pointer;
 	margin: 0.5rem;
+}
+
+.timer-buttons button{
+  width: 45%;
 }
 
 #pause {
