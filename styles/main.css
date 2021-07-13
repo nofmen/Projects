@@ -39,30 +39,37 @@ button {
 	margin: 0.5rem;
 }
 
-.timer-buttons button{
+.function-buttons button{
+  width: 28.5%;
+}
+
+.adding-buttons button{
   width: 45%;
 }
 
-#pause {
-  background:rgb(255, 0, 0);
-  border:rgba(255, 0, 0);
+#start {
+  background:rgb(93, 192, 53);
+  border:rgba(93, 192, 53);
+}
+
+#start:hover,
+#start:active {
+  background:rgb(124, 189, 98);
+  border:rgba(124, 189, 98);
 }
 
 #pause:hover,
-#pause:active {
-  background:rgb(255, 70, 70);
-  border:rgba(255, 70, 70);
-}
-
-#reset {
-  background:rgb(255, 0, 0);
-  border:rgba(255, 0, 0);
-}
-
+#pause:active,
 #reset:hover,
 #reset:active {
   background:rgb(255, 70, 70);
   border:rgba(255, 70, 70);
+}
+
+#pause,
+#reset {
+  background:rgb(255, 0, 0);
+  border:rgba(255, 0, 0);
 }
 
 button:hover,

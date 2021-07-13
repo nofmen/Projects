@@ -1,0 +1,6 @@
+create function that can be used for adding one second and five seconds
+complete functions for adding one and 5 minutes
+complete function for pausing timer (same pause from stopwatch should work)
+make sure that timer stops at 0
+
+add sound effect and screen flash when timer hits ZERO
