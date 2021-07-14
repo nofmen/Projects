@@ -39,13 +39,13 @@ function startTimer() {
   }
 }
 
-function stopTimer() {
+function pauseTimer() {
   clearInterval(Interval);
   isRunning = 0;
 }
 
 function resetTimer() {
-  stopTimer();
+  pauseTimer();
 
   tens = 00;
   appendTens.innerHTML = "00";
@@ -55,5 +55,5 @@ function resetTimer() {
 }
 
 startBtn.addEventListener('click', startTimerHandler);
-stopBtn.addEventListener('click', stopTimer);
+stopBtn.addEventListener('click', pauseTimer);
 resetBtn.addEventListener('click', resetTimer);
