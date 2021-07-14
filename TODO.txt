@@ -1,6 +1,24 @@
-create function that can be used for adding one second and five seconds
-complete functions for adding one and 5 minutes
-complete function for pausing timer (same pause from stopwatch should work)
-make sure that timer stops at 0
+[x] create function that can be used for adding one second and five seconds
+[x] complete functions for adding one and 5 minutes
+[x] complete function for pausing timer (same pause from stopwatch should work)
+[x] make sure that timer stops at 0
+[x] add sound effect at 00:00
+[x] add screen flash at 00:00
 
-add sound effect and screen flash when timer hits ZERO
+
+
+    else if (minRemain == 00) {
+        secRemain--
+        decreaseSeconds();
+
+timer end function - WORKS
+else if (minRemain == 00 && secRemain == 01) {
+        pauseTimer();
+        resetTimer();
+        beep.play();
+        document.getElementById('timer-page-body').style.backgroundColor = "red";
+        setTimeout(() => {
+            document.getElementById('timer-page-body').style.backgroundColor = "white";
+        }, 1000);
+    }
+}
